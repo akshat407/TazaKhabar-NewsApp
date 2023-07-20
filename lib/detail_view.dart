@@ -20,7 +20,10 @@ class _detailsState extends State<details> {
         initialUrl: widget.newsurl,
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
+          
+        }
       )
+  
     );
   }
 }
